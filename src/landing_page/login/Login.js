@@ -5,7 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 
 const Login = () => {
   const toDashboard = () => {
-    window.location.href = "http://localhost:3001/";
+    window.location.href = "https://vercel-dashboard-lac.vercel.app/";
   };
   const [inputValue, setInputValue] = useState({
     email: "",
@@ -36,7 +36,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:8080/login",
+        "https://vercel-backend-kohl-seven.vercel.app/",
         {
           ...inputValue,
         },

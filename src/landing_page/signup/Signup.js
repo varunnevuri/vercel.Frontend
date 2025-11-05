@@ -5,7 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 
 const Signup = () => {
   const toDashboard = () => {
-    window.location.href = "http://localhost:3001/";
+    window.location.href = "https://vercel-dashboard-lac.vercel.app/";
   };
   const [inputValue, setInputValue] = useState({
     email: "",
