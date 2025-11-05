@@ -36,7 +36,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://vercel-backend-kohl-seven.vercel.app/",
+        "https://vercel-backend-kohl-seven.vercel.app/login",
         {
           ...inputValue,
         },
